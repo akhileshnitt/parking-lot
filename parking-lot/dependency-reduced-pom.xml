@@ -63,13 +63,13 @@
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-test</artifactId>
-      <version>3.2.4.RELEASE</version>
+      <version>4.3.9.RELEASE</version>
       <scope>test</scope>
     </dependency>
   </dependencies>
   <properties>
     <jdk.version>1.8</jdk.version>
-    <dependency.spring.version>3.2.4.RELEASE</dependency.spring.version>
+    <dependency.spring.version>4.3.9.RELEASE</dependency.spring.version>
   </properties>
 </project>
 

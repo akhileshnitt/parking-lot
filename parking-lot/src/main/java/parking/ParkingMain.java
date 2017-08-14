@@ -17,16 +17,13 @@ public class ParkingMain {
             case 0:
                 System.out.println("Please enter 'exit' to quit");
                 System.out.println("Waiting for input...");
-                // Interactive command-line input/output
-                // Run an infinite loop
-                for (; ; ) {
+                 for (; ; ) {
                     try {
                         BufferedReader bufferRead = new BufferedReader(new InputStreamReader(System.in));
                         String inputString = bufferRead.readLine();
                         if (inputString.equalsIgnoreCase("exit")) {
                             break;
                         } else if ((inputString == null) || (inputString.isEmpty())) {
-                            // Do nothing
                         } else {
                             parkingParser.parseTextInput(inputString.trim());
                         }

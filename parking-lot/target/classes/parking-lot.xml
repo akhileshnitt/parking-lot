@@ -45,7 +45,7 @@
 
     </bean>
 
-    <bean id="create_parking_lot" class="executor.CreateParkingLotExecutor" autowire="byName" />
+    <bean id="create_parking_lot" class="executor.ParkingLotExecutor" autowire="byName" />
 
 
 

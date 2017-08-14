@@ -13,7 +13,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-import static parking.CLI.context;
+
 
 public class ParkingParser {
     public static ApplicationContext context =null;

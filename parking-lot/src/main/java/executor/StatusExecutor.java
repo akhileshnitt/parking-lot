@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 public class StatusExecutor implements CommandExecutor {
 
     @Autowired
-    private CreateParkingLotExecutor create_parking_lot;
+    private ParkingLotExecutor create_parking_lot;
 
     @Override
     public void execute(String command) {

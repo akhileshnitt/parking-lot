@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 public class ParkExecutor implements CommandExecutor {
 
     @Autowired
-    private CreateParkingLotExecutor create_parking_lot;
+    private ParkingLotExecutor create_parking_lot;
 
     @Override
     public void execute(String command) {

@@ -79,11 +79,18 @@ public class CLI {
     }
 
 
-    public static void main(String[] args) {
+  /*  public static void main(String[] args) {
   //      System.out.println("inside CLI");
-        new CLI(args).parse();
-    }
+        switch (args.length) {
+            case 0:
+                break;
+            case 1:
+                new CLI(args).parse();
+                break;
+        }
 
+    }
+*/
 }
 
 

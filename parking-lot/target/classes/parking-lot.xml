@@ -24,7 +24,29 @@
     <context:annotation-config />
     <context:component-scan base-package="parking" />
 
+
+    <bean id="leave" class="executor.LeaveExecutor" autowire="byName" >
+
+    </bean>
+    <bean id="park" class="executor.ParkExecutor" autowire="byName" >
+
+    </bean>
+    <bean id="status" class="executor.StatusExecutor" autowire="byName" >
+
+    </bean>
+
+    <bean id="registration_numbers_for_cars_with_colour" class="executor.RegistrationNumberExecutor" autowire="byName" >
+
+    </bean>
+    <bean id="slot_numbers_for_cars_with_colour" class="executor.SlotForCarsWithColorExecutor" autowire="byName" >
+
+    </bean>
+    <bean id="slot_number_for_registration_number" class="executor.SlotNumberForRegistrationNumber" autowire="byName" >
+
+    </bean>
+
     <bean id="create_parking_lot" class="executor.CreateParkingLotExecutor" autowire="byName" />
+
 
 
 

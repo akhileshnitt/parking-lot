@@ -80,7 +80,7 @@ public class CLI {
 
 
     public static void main(String[] args) {
-        System.out.println("inside CLI");
+  //      System.out.println("inside CLI");
         new CLI(args).parse();
     }
 

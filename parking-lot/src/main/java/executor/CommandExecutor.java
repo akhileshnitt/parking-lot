@@ -1,6 +1,8 @@
 package executor;
 
-public interface CommandExecutor<T> {
+import model.Slot;
 
-    public void execute(T t);
+public interface CommandExecutor {
+
+    public void execute(String command);
 }
